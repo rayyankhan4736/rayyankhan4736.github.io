@@ -1,5 +1,0 @@
-ether
-frax
-dai
-binanceusd
-

@@ -1,0 +1,15 @@
+.heading{
+  background-color:#fbc304 ;
+
+}
+#contactbutton{
+  position:absolute;
+  right: 30px;
+  top: 30px;
+}
+body{
+  margin: 0;
+}
+footer{
+  text-align: center;
+}
