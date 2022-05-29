@@ -13,3 +13,13 @@ body{
 footer{
   text-align: center;
 }
+.gitouch{
+  text-align: center;
+  background-color: #DDDDDD;
+  height: 350px;
+  margin-bottom: 100px;
+}
+#message{
+  width: 350px;
+  height: 150px;
+}
