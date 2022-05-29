@@ -21,6 +21,11 @@ body{
 footer{
   text-align: center;
 }
+#progimg{
+  width: 180px;
+  position:absolute;
+  right: 150px;
+}
 .gitouch{
   text-align: center;
   background-color: #DDDDDD;
