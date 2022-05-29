@@ -9,6 +9,9 @@
   position:absolute;
   right: 30px;
   top: 30px;
+  width: 100px;
+  height: 30px;
+  background-color: #FEFBE7;
 }
 body{
   background-color: #F2F5C8;
@@ -27,4 +30,9 @@ footer{
 #message{
   width: 350px;
   height: 150px;
+}
+#sub-button{
+  width: 100px;
+  height: 30px;
+  background-color: #FFD24C;
 }
