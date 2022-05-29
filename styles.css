@@ -2,13 +2,18 @@
   background-color:#fbc304 ;
 
 }
+.intro{
+  text-align: center;
+}
 #contactbutton{
   position:absolute;
   right: 30px;
   top: 30px;
 }
 body{
+  background-color: #F2F5C8;
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 footer{
   text-align: center;
