@@ -6,12 +6,19 @@
   text-align: center;
 }
 #contactbutton{
+  color: #F2F5C8;
   position:absolute;
   right: 30px;
   top: 30px;
   width: 100px;
   height: 30px;
-  background-color: #FEFBE7;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  background-color:  black;
+}
+#contactbutton:hover {
+  background-color: #F2F5C8 ;
+  color:black;
 }
 body{
   background-color: #F2F5C8;
@@ -26,18 +33,41 @@ footer{
   position:absolute;
   right: 150px;
 }
+.name{
+  background-color: #A5BECC;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
 .gitouch{
   text-align: center;
   background-color: #DDDDDD;
-  height: 350px;
+  height: 450px;
   margin-bottom: 100px;
+  padding-top: 50px;
 }
 #message{
   width: 350px;
   height: 150px;
 }
+
+.about{
+  display: inline-block;
+  padding-left: 50px;
+
+}
 #sub-button{
-  width: 100px;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+  background-color:#fbc304;
+  width: 150px;
   height: 30px;
-  background-color: #FFD24C;
+}
+.formdata{
+  border-radius:5px;
+}
+
+#sub-button:hover {
+  background-color: black;
+  color: #fbc304;
+  border: 2px solid #fbc304;
 }
