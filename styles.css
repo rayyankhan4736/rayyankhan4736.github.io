@@ -1,73 +1,169 @@
-.heading{
-  background-color:#fbc304 ;
+.intro{
+  border: 5px solid black ;
+  border-radius: 15px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 1s;
+}
+.intro2{
+  border: 5px solid black ;
+  border-radius: 15px;
+  background-color: grey;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-around;
 
 }
-.intro{
-  text-align: center;
+@media screen and (max-width:750px)
+{
+  .intro2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+  }
+  .about {
+    width: 300px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+
+
+  }
+  .Skills{
+    width: 1500px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+
+    position: relative;
+  }
+  .edu{
+    width: 1500px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+  }
 }
-#contactbutton{
-  color: #F2F5C8;
-  position:absolute;
-  right: 30px;
-  top: 30px;
-  width: 100px;
-  height: 30px;
-  transition-duration: 0.4s;
+.touch{
+  color:  #fbc304;
+  text-align: center;
+
+}
+.forms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  font: bold 1.25rem Arial;
+  text-decoration: none;
+  background-color: #fbc304 ;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  width: 5rem;
+  height: 2rem;
   border-radius: 5px;
-  background-color:  black;
 }
-#contactbutton:hover {
-  background-color: #F2F5C8 ;
-  color:black;
-}
-body{
-  background-color: #F2F5C8;
-  margin: 0;
-  font-family: 'Ubuntu', sans-serif;
-}
-footer{
+.about {
+  width: 10rem;
   text-align: center;
+
+
+
 }
-#progimg{
-  width: 180px;
-  position:absolute;
-  right: 150px;
+.Skills{
+  width: 10rem;
+  text-align: center;
+
+
+}
+.edu{
+  width: 10rem;
+  text-align: center;
+
+
+}
+
+#sub-button {
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    color: #fbc304;
+      border-color:#fbc304 ;
+    background-color: black;
+
+    width: 150px;
+    height: 30px;
+}
+.formin{
+  border-radius: 6px;
+  border-color: black;
+
+}
+#sub-button:hover {
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    color: black;
+    border-color: black;
+    background-color: #fbc304;
+}
+
+#abimg{
+  width: 6rem;
+}
+#skimg{
+  width: 6rem;
+}
+#edimg{
+  width: 8rem;
+}
+.button:hover{
+  background-color: yellow;
+}
+#profpic{
+  width: 15rem;
+  padding-bottom: 15px;
+}
+#cright{
+  text-align: center;
 }
 .name{
-  background-color: #A5BECC;
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-.gitouch{
   text-align: center;
-  background-color: #DDDDDD;
-  height: 450px;
-  margin-bottom: 100px;
-  padding-top: 50px;
-}
-#message{
-  width: 350px;
-  height: 150px;
+  color: WHITE;
 }
 
-.about{
-  display: inline-block;
-  padding-left: 50px;
-
+body{
+  margin: 5px;;
+  background-color: #413F42;
+  color:black;
+  font-family: 'Ubuntu', sans-serif;
 }
-#sub-button{
-  transition-duration: 0.4s;
-  border-radius: 3px;
-  background-color:#fbc304;
-  width: 150px;
-  height: 30px;
+p{
+  color: #fff;
 }
-.formdata{
-  border-radius:5px;
+html{
+  margin: none;
 }
 
-#sub-button:hover {
-  background-color: black;
-  color: #fbc304;
-  border: 2px solid #fbc304;
+.intro p{
+  padding-left: 10px;
+}
+.intro img{
+  border-radius: 14px;
+  cursor: grab;
+
 }
