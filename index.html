@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
   </head>
   <body>
     <div class="intro">
       <img class="logoimg" src="img/capture.png" alt="">
-      <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a>
+      <a href="#_" class="relative inline-block text-lg group">
+        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+        <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-yellow-300"></span>
+        <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+        <span class="relative">Button Text</span>
+        </span>
+        <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
+        </a>
     </div>
     <div class="name">
-      <h1>I'm Rayyan</h1>
-      <h3 id="h3line">A Web Designer.</h3>
-      <img id="profpic" src="img/filename.jpg" alt="">
+      <h1 class="text-center text-4xl">I'm Rayyan</h1>
+      <h3 class="text-center text-yellow-300 text-xl mb-6">A Web Designer.</h3>
+      <img class="w-30 inline-block mb-4" src="img/filename.jpg" alt="">
     </div>
    <div class="intro2">
      <div class="about">
        <img id="abimg" src="img/about.png" alt="">
-       <h2>About me</h2>
-       <p>I'm from Hyderabad, and currently a student at Hashinsert in Web Development bootcamp.</p>
+       <h2 class="text-center text-xl">About me</h2>
+       <p class="text-white text-m ">I'm from Hyderabad, and currently a student at Hashinsert in Web Development bootcamp.</p>
 
      </div>
      <div class="Skills">
        <img  id="skimg" src="img/skills.png" alt="">
-       <h2>Skills.</h2>
-       <p>I am pretty good at html, css and my main programming language is python</p>
+       <h2 class="text-center text-xl">Skills.</h2>
+       <p class="text-white text-m ">I am pretty good at html, css and my main programming language is python</p>
      </div>
      <div class="edu">
        <img  id="edimg" src="img/ed2.png" alt="">
-       <h2>Education.</h2>
-       <p>(B.Tech in Computer Science)Lords institute of Engineering and Technology, Hyderabad. (2018- 2022).</p>
+       <h2 class="text-center text-xl">Education.</h2>
+       <p class="text-white text-m ">(B.Tech in Computer Science)Lords institute of Engineering and Technology, Hyderabad. (2018- 2022).</p>
      </div>
    </div>
    <div class="touch">
-     <h2>Let's Get In Touch</h2>
-     <p>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
+     <h2 class="text-center text-2xl">Let's Get In Touch</h2>
+     <p class="text-white text-m ">I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
    </div>
    <div class="formcontainer">
      <form class="my-form" action="index.html" method="post">
      <div class="namenmail">
-       <input class="formstyling" type="text" name="name" placeholder="Name">
-       <input class="formstyling" type="email" name="mail" placeholder="Email"><br>
-       <textarea  class="formstyling" name="name" rows="10" cols="50" placeholder="Message"></textarea><br>
-       <input class="sub-button" type="submit" name="sunmit" value="submit">
+       <input class="rounded-md p-1 border-4 border-black" type="text" name="name" placeholder="Name">
+       <input class="rounded-md p-1  border-4 border-black" type="email" name="mail" placeholder="Email"><br>
+       <textarea  class="rounded-md p-1  border-4 border-black" name="name" rows="10" cols="50" placeholder="Message"></textarea><br>
+       <input class="bg-yellow-400 w-2/4 text-opacity-40 text-center rounded-lg h-7 hover:bg-black hover:text-white" type="submit" name="sunmit" value="submit">
      </div>
      </form>
    </div>
